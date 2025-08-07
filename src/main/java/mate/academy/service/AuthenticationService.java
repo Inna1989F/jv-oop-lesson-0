@@ -1,4 +1,5 @@
 package mate.academy.service;
+
 import mate.academy.model.User;
 
 public class AuthenticationService {
@@ -7,7 +8,7 @@ public class AuthenticationService {
      * You should check if user credentials (login and password) are valid or not.
      * All users are stored in <code>UserService</code> class.
      *
-     * @param email    - user's email
+     * @param email    - user's emai
      * @param password - user's password
      * @return true if user by email exists and passed password is equal to user's password.
      * Return false in any other cases.
